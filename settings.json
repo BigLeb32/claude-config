@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "enabledPlugins": {
+    "figma@claude-plugins-official": true,
+    "context7@claude-plugins-official": true,
+    "~/.claude/plugins/claude-skills-marketplace/engineering-workflow-plugin": true,
+    "~/.claude/plugins/claude-skills-marketplace/visual-documentation-plugin": true,
+    "~/.claude/plugins/claude-skills-marketplace/productivity-skills-plugin": true,
+    "~/.claude/plugins/claude-skills-marketplace/code-operations-plugin": true
+  },
+  "permissions": {
+    "allow": [
+      "Task",
+      "Bash",
+      "Glob",
+      "Grep",
+      "Read",
+      "Edit",
+      "Write",
+      "WebFetch",
+      "WebSearch",
+      "mcp__qt-build__qt_cmake_configure",
+      "mcp__qt-build__qt_build",
+      "mcp__qt-build__qt_clean",
+      "mcp__qt-build__qt_run",
+      "mcp__qt-build__qt_stop",
+      "mcp__qt-build__qt_get_log",
+      "mcp__qt-build__qt_get_config",
+      "mcp__qt-build__qt_rebuild",
+      "mcp__qt-build__qt_get_status",
+      "mcp__qt-build__qt_clear_logs",
+      "mcp__qt-build__qt_screenshot",
+      "Bash(./gradlew:*)",
+      "Bash(adb logcat:*)",
+      "Bash(adb shell:*)",
+      "Bash(adb devices:*)",
+      "Bash(adb exec-out run-as com.sev.deepdetekt cat:*)",
+      "Bash(sqlite3:*)",
+      "Bash(git checkout:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": []
+  },
+  "enableAllProjectMcpServers": true,
+  "alwaysThinkingEnabled": true
+}

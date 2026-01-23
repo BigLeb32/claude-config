@@ -1,0 +1,18 @@
+# Ignore everything by default
+*
+
+# Allow only these files
+!.gitignore
+!settings.json
+!CLAUDE.md
+!README.md
+!install.sh
+!install.ps1
+
+# Allow skills directory
+!skills/
+!skills/**
+
+# Never track these (even if explicitly added)
+.credentials.json
+*.jsonl
